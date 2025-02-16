@@ -1,0 +1,132 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+/* App Container */
+.container {
+  padding: 20px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+/* Intro Screen */
+.intro-screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  transition: opacity 1s;
+}
+
+.highlight {
+  color: #ffcc00;
+}
+
+.start-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.start-btn:hover {
+  background-color: #e6b800;
+}
+
+/* Main App */
+.main-app {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Webcam Container */
+.webcam-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.webcam {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+/* Capture Button */
+.capture-btn {
+  margin: 15px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.capture-btn:hover {
+  background-color: #45a049;
+}
+
+.capture-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Upload Section */
+.upload-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+.upload-input {
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.uploaded-image-container {
+  margin-top: 20px;
+}
+
+.uploaded-image {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+/* Emotion Result */
+.emotion-box {
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f4f4f4;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.emotion {
+  color: #ff5733;
+  font-weight: bold;
+}
